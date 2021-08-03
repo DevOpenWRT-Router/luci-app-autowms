@@ -15,6 +15,6 @@ PKG_VERSION:=1.1.20200804
 PKG_RELEASE:=1
 PKG_MAINTAINER:=Sandiko <androxoss@hotmail.com>
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
